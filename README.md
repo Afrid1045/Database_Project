@@ -18,6 +18,7 @@ Use Prisons Database by following the below steps.
 
 Step 1: Install PostgreSQL in your local environment.
         Download Link: https://www.postgresql.org/download/
+
 Step 2: Create a database and restore 'dbms_final_backup.tar' file 
         from the prisons_db_backup folder above. you will have the database online to work with.
 
