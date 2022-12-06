@@ -50,9 +50,3 @@ Step 7: Your Web Application is opened in a new chrome tab
 Link to the Prison DataSet:
 https://www.kaggle.com/datasets/rajanand/prison-in-india?select=Jail+wise+population+of+prison+inmates.csv
 
-Step 6: Run py -m streamlit run main.py
-
-Step 7: You can access the web application and enter the details from the web to the database.
-
-
-Dataset used for 'Prisons in India' database: https://www.kaggle.com/datasets/rajanand/prison-in-india?select=Jail+wise+population+of+prison+inmates.csv
