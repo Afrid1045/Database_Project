@@ -1,39 +1,54 @@
-# Database_Project
-This Project's main goal is to hold the data of “Prisons in India” in a Database.
-This Database holds information on all the prisons, including staff, budget, and income details of the prisons.
-Holds personal details of the prisoners, illness details, released prisoner details, and the information surrounding the deaths of the prisoners.
-Holds information on sections(laws and charges of the crimes) according to the Indian Penal Code(IPC).
-Has statistical information on the number of prisoners in each state and year.
-Holds gender and age-specific numbers based on different crimes.
+# CSC6710_Prison_DataBase
 
-#ER-Diagram of the database
+This Project mainly focuses on creating a DataBase for each prison in India. This DataBase holds data related to all the prisons and prisoners in it. We have 11 tables in this database which holds information of prisons, prisoners, deaths in prisons, staff, ipc sections, budgets etc.
 
-<img width="899" alt="ER-Diagram_final_project" src="https://user-images.githubusercontent.com/113804196/202076015-60483a8c-1ec2-458a-98cc-c0f3e0f862ae.png">
+### The ER Diagram of the DataBase
 
-# Web Application created using Streamlit Framework:
-![UI](https://user-images.githubusercontent.com/113804196/202076301-2e50e2fc-1c09-4d45-9d12-23a17603f1b4.png)
+<img width="899" alt="Screenshot 2022-11-15 at 11 13 58 AM" src="https://user-images.githubusercontent.com/79399756/202068917-f297b316-eb88-4408-ac93-0f74fd988582.png">
 
-# Prisons Database
-Use Prisons Database by following the below steps.
+### Our Web Application created using Streamlit framework looks as below
 
-Step 1: Install PostgreSQL in your local environment.
-        Download Link: https://www.postgresql.org/download/
+<img width="1680" alt="Screenshot 2022-11-15 at 9 30 56 PM" src="https://user-images.githubusercontent.com/79399756/202069243-8e6e0719-a1f2-4ce9-841d-8c9ca904c607.png">
 
-Step 2: Create a database and restore 'dbms_final_backup.tar' file 
-        from the prisons_db_backup folder above. you will have the database online to work with.
+### How to access the Prisons DataBase
 
-# Web App
-Access Web App using the following steps
+Step 1: Install PgAdmin and open it in your Desktop.
 
-Step 1: Download DBMS_project folder
+Installation Guide
+https://www.pgadmin.org/
 
-Step 2: Open Command prompt and go to the file path of downloaded files in the local environment.
+Step 2: Create a Database and right click you get restore option
 
-Step 3: Run pip install -r requirements.txt
+<img width="1680" alt="Screenshot 2022-11-15 at 9 43 41 PM" src="https://user-images.githubusercontent.com/79399756/202071090-bf4069e4-17a6-4860-9872-f9b8a54376ae.png">
 
-Step 4: Open Connection.py file using visual studio app and update your postgresql credentials.
+Step 3: Unzip DataBase_backup3.tar file in Data Base BackUp File and upload it as shown below
 
-Step 5: Run pip install streamlit
+<img width="1680" alt="Screenshot 2022-11-15 at 9 44 02 PM" src="https://user-images.githubusercontent.com/79399756/202071297-78adc666-bc50-4c33-8a98-c5003b6101d6.png">
+
+Step 4: Your DataBase is Ready.
+
+### How to Access Web App
+
+Step 1: Download Streamlit_Framework_Setup folder
+
+Step 2: Open Command Prompt/Terminal in your desktop.
+        Use command cd file-path(your file path)
+
+Step 3: Next write the following command 
+        pip install -r requirements.txt
+
+Step 4: Next open the connection.py file and change the credentials 
+
+Step 5: Run pip install streamlit 
+
+Step 6: Finally run the following command
+        streamlit run main.py for mac
+        py -m streamlit run main.py for windows
+        
+Step 7: Your Web Application is opened in a new chrome tab
+
+Link to the Prison DataSet:
+https://www.kaggle.com/datasets/rajanand/prison-in-india?select=Jail+wise+population+of+prison+inmates.csv
 
 Step 6: Run py -m streamlit run main.py
 
